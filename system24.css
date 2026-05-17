@@ -481,6 +481,13 @@ body {
 }
 
 @container body style(--unrounding: on) {
+    /* Укажите актуальные селекторы аватарок (см. примечание ниже) */
+    .avatar__20a53,
+    .wrapper__44b0c,
+    .avatarStack_e2eaab .avatar__20a53 {
+        border-radius: 50% !important;
+    }
+}
     *,
     *::before,
     *::after {
